@@ -9,8 +9,9 @@ dockerfile for [kippo (SSH Honeypot)](https://github.com/desaster/kippo)
 $ git clone https://github.com/bungoume/kippo-container.git
 $ cd kippo-container
 $ vim kippo.cfg
-$ docker build -t kippo .
-# docker run -d -p 2222:2222 -name kippo
+  # EDIT kippo.efg
+$ sudo docker build -t kippo .
+$ sudo docker run -d -p 2222:2222 -name kippo kippo
 ```
 
 ## License
