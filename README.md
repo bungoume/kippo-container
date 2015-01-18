@@ -5,7 +5,7 @@ dockerfile for [kippo (SSH Honeypot)](https://github.com/desaster/kippo)
 
 ## Usage
 
-```
+```sh
 $ git clone https://github.com/bungoume/kippo-container.git
 $ cd kippo-container
 $ vim kippo.cfg
